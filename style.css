@@ -1,0 +1,83 @@
+body {
+background-color: #191970;
+font-family: Georgia;
+}
+
+#maincontent {
+padding: 0 10px;
+display: block;
+margin: 0 auto;
+box-sizing: border-box;
+width: 600px;
+border: 2px white solid;
+border-radius: 5px;
+background-color: #99CCFF;
+box-shadow: 5px 5px 15px navy;
+}
+
+h1 {
+text-align: center;
+text-decoration: underline;
+}
+h2 {
+padding: 0 5px;
+color: #483D8B;
+background-color: white;
+border-bottom: 3px ridge navy;
+}
+
+#contact {
+list-style-type: none;
+} 
+#contact li {
+padding: 2px 0;
+} 
+
+.profilepic {
+float: left;
+margin-right: 10px;
+border: 2px black solid;
+box-shadow: 1px 1px 1px black;
+}
+
+.name {
+color: #008080;
+font-weight: bold;
+}
+
+a {
+color: blue;
+text-decoration: none;
+}
+
+a:hover {
+color: green;
+font-weight: bold;
+text-decoration: underline;
+}
+
+ul li {
+margin: 5px 0;
+list-style-type: square;
+}
+
+#technical_skills {
+vertical-align: top;
+display: inline-block;
+margin: 0px 25px;
+}
+#business_skills {
+margin: 0px 25px;
+display: inline-block;
+}
+.centeralign {
+text-align: center;
+}
+#firstrowinterests {
+display: inline-block;
+margin: 0 40px;
+}
+#secondrowinterests {
+display: inline-block;
+margin: 0 40px;
+}
